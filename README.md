@@ -1,5 +1,5 @@
 # Home-Automation-with-Tasmota
-![](RackMultipart20220111-4-sts3az_html_ae9773f6c407f957.jpg)
+![image](https://user-images.githubusercontent.com/79988029/148891987-09dbe61e-b3b1-4d45-b05c-9b1fc232aa53.png)
 # Alexa Controlled Home Automation with Tasmota (no coding required)
 
 Hello friends! Welcome back to the Home Automation Series. In the previous blog we have learnt how to make a smart switch board with the help of Sinric server. If you haven&#39;t read it yet this is the link
@@ -40,7 +40,7 @@ Let&#39;s start our project.
 
 We will upload our code into this development board. It is more compatible than any other development boards available.
 
-![](RackMultipart20220111-4-sts3az_html_133d7177f71791aa.jpg)
+![image](https://user-images.githubusercontent.com/79988029/148892018-246cdf40-1df0-430a-856e-cb3ccdcd9b44.png)
  Buy it from here
 
 [https://www.hnhcart.com/products/node-mcu-cp-210x?\_pos=1&amp;\_sid=16b795a75&amp;\_ss=r](https://www.hnhcart.com/products/node-mcu-cp-210x?_pos=1&amp;_sid=16b795a75&amp;_ss=r)
@@ -49,7 +49,7 @@ If you want to make your project cheaper you can use ESP-12e board. You can chec
 
 [https://youtu.be/UxIBCyP0V18](https://youtu.be/UxIBCyP0V18)
 
-![](RackMultipart20220111-4-sts3az_html_1179391320ec147b.png)
+![image](https://user-images.githubusercontent.com/79988029/148892061-7570e0ba-cb77-4c76-a894-67cca815dec6.png)
 
 Buy it from here
 
@@ -63,9 +63,7 @@ Buy it from here
 
 ### 2. 4 channel relay board:
 
-It acts as a switch. It can be controlled with little dc voltage to control high voltage appliances. ![](RackMultipart20220111-4-sts3az_html_a2cd6c647114ce18.png)
-
-![](RackMultipart20220111-4-sts3az_html_4e92671b71be6f69.gif)
+It acts as a switch. It can be controlled with little dc voltage to control high voltage appliances. ![image](https://user-images.githubusercontent.com/79988029/148892141-70657c32-6f73-414a-9a30-52d44145d0a2.png)
 
 [https://www.hnhcart.com/products/4-channel-5v-relay-module?\_pos=11&amp;\_sid=959d29598&amp;\_ss=r](https://www.hnhcart.com/products/4-channel-5v-relay-module?_pos=11&amp;_sid=959d29598&amp;_ss=r)
 
@@ -73,11 +71,11 @@ It acts as a switch. It can be controlled with little dc voltage to control high
 
 As its name, it is used to connect pins of NodeMCU and relay board as well as switches.
 
-![](RackMultipart20220111-4-sts3az_html_b4cae2f7bd41431.png)
+![image](https://user-images.githubusercontent.com/79988029/148892164-13fe4c03-7ab3-4339-9a0c-5303cd4970f7.png)
 
 ### 4.Power source:
 
-![](RackMultipart20220111-4-sts3az_html_9e7625bd708025cc.jpg)
+![image](https://user-images.githubusercontent.com/79988029/148892185-5870267a-c5ef-4f61-b9cb-280efd9c0d56.png)
 
 ### You can use even a mobile charger for power source.
 
@@ -89,7 +87,7 @@ Or you can buy it from here
 
 There is nothing to talk about it. These are familiar to everyone. These are available in every electrical shop.
 
-![](RackMultipart20220111-4-sts3az_html_f6968d4511bc1d29.jpg) ![](RackMultipart20220111-4-sts3az_html_1cfef57b3b2d8a42.png) ![](RackMultipart20220111-4-sts3az_html_73e746452d176e8d.jpg)
+![image](https://user-images.githubusercontent.com/79988029/148892204-ff5b31c5-5628-4add-a567-c48e760232e0.png)
 
 ### 6. Any Alexa device:
 
@@ -127,7 +125,7 @@ GPIO14 - D5 of NodeMCU - Switch 3
 
 GPIO10 - SD3 of NodeMCU - Switch 4
 
-![](RackMultipart20220111-4-sts3az_html_c9539b9e3d3815a8.png)
+![image](https://user-images.githubusercontent.com/79988029/148892276-d2402120-af44-4f33-b889-6bcb511d0107.png)
 
 # Software
 
@@ -162,9 +160,9 @@ After downloading and installing all the software, files and apps we can the sta
 5. Make a tick on &quot;Self-resetting device&quot; and also on &quot;Erase before flashing&quot; (by default it is already selected).
 6. Now, click on &quot;Tasmotize&quot;.
 
-![](RackMultipart20220111-4-sts3az_html_a1003087a47f38fa.png) ![](RackMultipart20220111-4-sts3az_html_2d69ef900d80c9bc.png)
-
-![](RackMultipart20220111-4-sts3az_html_75141677debcee37.png)
+![image](https://user-images.githubusercontent.com/79988029/148892336-95e8e6bb-dd8a-4b2f-a495-7ec768abc704.png)
+![image](https://user-images.githubusercontent.com/79988029/148892353-89f0723b-fe60-4de5-ba76-f8cd834b9cf4.png)
+![image](https://user-images.githubusercontent.com/79988029/148892378-44512e60-81e2-46d7-8689-3f6e115dbb58.png)
 
 1. After Tasmotizing, click on &quot;ok&quot;.
 
@@ -176,11 +174,11 @@ Now, firmware flashing is completed. Your NodeMCU turned into a Tasmota Device.
 
 Note: If your mobile phone shows the notification &quot;Internet connection may not be Available&quot;, just click on &quot;Keep the Connection&quot;.
 
-1. Now open the Chrome or any of your favorite browser and enter the IP Address &quot;192.168.4.1&quot;
+2. Now open the Chrome or any of your favorite browser and enter the IP Address &quot;192.168.4.1&quot;
 
-![](RackMultipart20220111-4-sts3az_html_46e70e38eea99917.png)
+![image](https://user-images.githubusercontent.com/79988029/148892417-6b713ade-7ae8-48a7-9959-7c9697b3f746.png)
 
-1. Enter the Wi-Fi credentials of your Hotspot and click on the &quot;Save&quot; button.
+3. Enter the Wi-Fi credentials of your Hotspot and click on the &quot;Save&quot; button.
 
 # Configuring the Tasmota Firmware
 
@@ -189,7 +187,7 @@ Note: If your mobile phone shows the notification &quot;Internet connection may 
 3. Open any of your favorite browsers and enter the IP Address which you have noted.
 4. You will see a page opened like this
 
-![](RackMultipart20220111-4-sts3az_html_529b6b3c5b93f6a8.png)
+![image](https://user-images.githubusercontent.com/79988029/148892494-8a34b479-2c6a-4871-b980-b8269003a73d.png)
 
 5. Static IP address is important for various reason such as all 4-hue app will use that address to connect a Tasmota device and toggle its relays. Change in IP address by your router will result in failure to control a Tasmota device using all 4-hue app. We can use Tasmota Console to issue commands to change these settings. Navigate to  **Console** , enter commands one by one in given box and press Enter key each time. Various commands are discussed below;
 
@@ -230,26 +228,26 @@ The device will restart automatically.
 
 6. Navigate to Configuration \&gt; Configure Other and input Web Admin Password in respective field. You can also change Friendly Name if required. Click on the &quot;Hue Bridge&quot; option. Hit Save to take changes effect. Without enabling Hue bridge, you can&#39;t use all 4-hue app. Now browser will ask for user name and password. Admin is default user name and input the password you entered in Web Admin Password field before. Tasmota device will restart in few seconds to apply the configuration.
 
-![](RackMultipart20220111-4-sts3az_html_ed2666a0b054c70a.png)
+![image](https://user-images.githubusercontent.com/79988029/148892521-5f71020e-8cb0-4158-85e2-8b65fd4e35c4.png)
 
 7. Click on &quot;Configuration&quot; and then click on &quot;Configure module&quot;. A page will open like this
 
-![](RackMultipart20220111-4-sts3az_html_fa7f24264af9f8ba.png)
+![image](https://user-images.githubusercontent.com/79988029/148892552-9c4c6194-d6cb-43e9-bb64-d98471aced7e.png)
 
-1. Click on module type and select &quot;Generic (0)&quot;. And click &quot;Save&quot;. The Tasmota module will reboot automatically.
-2. Now again click on &quot;Configuration&quot; and then click on &quot;Configure module&quot;. A page will open like this
+8. Click on module type and select &quot;Generic (0)&quot;. And click &quot;Save&quot;. The Tasmota module will reboot automatically.
+9. Now again click on &quot;Configuration&quot; and then click on &quot;Configure module&quot;. A page will open like this
 
-![](RackMultipart20220111-4-sts3az_html_cfcd03f3aa2dbbed.png)
+![image](https://user-images.githubusercontent.com/79988029/148892680-a5aa93d8-3923-4df3-bfac-d2a70fa35765.png)
 
-1. Set all the options as shown in the below picture. And click on &quot;Save&quot;.
+10. Set all the options as shown in the below picture. And click on &quot;Save&quot;.
 
-![](RackMultipart20220111-4-sts3az_html_1f09325361c7c1df.png)
+![image](https://user-images.githubusercontent.com/79988029/148892699-0328548e-a4ae-45a2-a8f1-23a287a105e1.png)
 
-1. Now again click on &quot;Configuration&quot; and then click on &quot;Configure other&quot; and enter the details as shown in picture. And then click &quot;Save&quot;.
+11. Now again click on &quot;Configuration&quot; and then click on &quot;Configure other&quot; and enter the details as shown in picture. And then click &quot;Save&quot;.
 
-![](RackMultipart20220111-4-sts3az_html_3a71ca2dcc71bdbc.png)
+![image](https://user-images.githubusercontent.com/79988029/148892733-97becf4e-3a55-4e77-8644-2adc8267e381.png)
 
-1. Now your Tasmota Switch Board is ready for use. The Tasmota module will reboot automatically.
+12. Now your Tasmota Switch Board is ready for use. The Tasmota module will reboot automatically.
 
 # Setting the Apps
 
@@ -258,21 +256,21 @@ Before opening any of the apps make sure your mobile phone to the Wi-Fi network 
 # Alexa app
 
 1. Open the Alexa app and login with your amazon account.
-2. Go to the devices section and tap on &quot;+&quot; symbol which is present at the top right corner. ![](RackMultipart20220111-4-sts3az_html_d26d6cb95af5c325.jpg)
+2. Go to the devices section and tap on &quot;+&quot; symbol which is present at the top right corner. ![image](https://user-images.githubusercontent.com/79988029/148892821-be1f79f9-ac20-46d1-bfaa-fe428c60864c.png)
 
-1. Tap on &quot;Add Device&quot;.
+3. Tap on &quot;Add Device&quot;.
 
-![](RackMultipart20220111-4-sts3az_html_c52ae5637c737197.jpg)
+![image](https://user-images.githubusercontent.com/79988029/148892841-0ed3c67d-2a39-4851-9f49-35ec292f1a51.png)
 
-1. Scroll to bottom of the page and tap on &quot;Other&quot;.
+4. Scroll to bottom of the page and tap on &quot;Other&quot;.
 
-![](RackMultipart20220111-4-sts3az_html_de1645913f757158.jpg)
+![image](https://user-images.githubusercontent.com/79988029/148892876-9a72a3c2-8400-43b2-a716-9cdf1b24cc10.png)
 
-1. Tap on &quot;Discover Devices&quot;. It may take up to 45 seconds.
+5. Tap on &quot;Discover Devices&quot;. It may take up to 45 seconds.
 
-![](RackMultipart20220111-4-sts3az_html_dbb9a3d977516c3a.jpg)
+![image](https://user-images.githubusercontent.com/79988029/148892897-4447c3a9-b3fa-47fb-821a-5b4479b70bd8.png)
 
-1. You will get a notification that &quot;4 devices are found and connected&quot;.
+6. You will get a notification that &quot;4 devices are found and connected&quot;.
 
 Now you can control the appliances with your mobile phone via Internet.
 
@@ -280,14 +278,15 @@ Now you can control the appliances with your mobile phone via Internet.
 
 1. Open the app and click on &quot;NEXT&quot;.
 
-![](RackMultipart20220111-4-sts3az_html_4ce1ec9228233548.jpg)
+![image](https://user-images.githubusercontent.com/79988029/148892933-e54aa7e5-b683-447a-a1da-091900d0c715.png)
 
-1. You will see search in progress. After the search is completed click on &quot;NEXT&quot;.
+2. You will see search in progress. After the search is completed click on &quot;NEXT&quot;.
 
-![](RackMultipart20220111-4-sts3az_html_d8d39e83e560e1e9.jpg) ![](RackMultipart20220111-4-sts3az_html_63947c2085da2647.jpg)
+![image](https://user-images.githubusercontent.com/79988029/148892955-b120dca3-44bf-478b-9aa5-1bbf2fbd45df.png)
+![image](https://user-images.githubusercontent.com/79988029/148892982-5548dd1a-4fe5-4cf3-b36d-d55946a100c5.png)
 
-1. You will see the devices found.
+3. You will see the devices found.
 
-![](RackMultipart20220111-4-sts3az_html_69cd59c799ed6f95.jpg)
+![image](https://user-images.githubusercontent.com/79988029/148893011-248a5f76-152a-4095-a92c-194905dc665d.png)
 
 Now you can control the appliances with your mobile phone without Internet connection. Just keep your phone and Tasmota device on the same Wi-Fi network. Voice assistant may not work without Internet. When the Internet comes back the Voice Assistant starts working.
